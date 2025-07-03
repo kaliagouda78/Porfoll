@@ -1,0 +1,155 @@
+.Con{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.bor{
+    height: 270px;
+    width: 260px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+    border-radius: 50%;
+    padding: 13px;
+   
+    box-shadow: 1px 1px 8px rgb(229, 226, 236);
+}
+.bor>img{
+    height: 260px;
+    width: 250px;
+    border-radius: 50%;
+}
+.bor>img:hover{
+    transform: translateY(-10px);
+}
+.bor:hover{
+    transform: translateY(-10px);
+}
+.L_side{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+     margin-top: 100px;
+  
+}
+.L_side>h1{
+    color: white;
+    font-size: 60px;
+}
+.L_side>h2{
+    color: white;
+    font-size: 36px;
+}
+.L_side>p{
+    color: rgb(40, 61, 102);
+    font-size: 18px;
+    font-weight: 100;
+}
+.btn{
+       margin-top: 10px;
+       display: flex;
+       gap: 10px;
+}
+.btn>a{
+    text-decoration: none;
+    color: white;
+border-radius: 50%;
+border: 1px solid;
+padding: 5px;
+}
+button{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    transition: all 0.5s ease-in;
+}
+button:hover{
+  background-color: rgba(255, 255, 255, .1);
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 20px;
+}
+.box1{
+    border: 1px solid black;
+    padding-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+main{
+            
+    background-image: linear-gradient(135deg, rgb(177, 138, 196), rgb(117, 134, 155), rgb(39, 39, 56));
+}
+
+#About{
+    display: flex;
+    padding: 100px;
+      position: relative;
+            left: 20px;
+            top: 20px;
+            height: 32vh;
+            width: 80vw;
+         border-radius: 20px;
+            background-color: rgba(255, 255, 255, .1);
+}
+.abt1>h2{
+    text-align: center;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.abt1{
+display: flex;
+    flex-direction: column;
+}
+#skill{
+    display: flex;
+    gap: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+       display: flex;
+    padding: 100px;
+      position: relative;
+            left: 20px;
+            top: 20px;
+            height: 55vh;
+            width: 80vw;
+         border-radius: 20px;
+            background-color: rgba(255, 255, 255, .1);
+            padding-bottom: 20px;
+    
+}
+.skill{
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 20px rgb(207, 178, 178);
+    
+}
+.skill:hover{
+    box-shadow:2px 3px  20px aqua; 
+    scale: 1.05;
+    color: white;
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+h4{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: white;
+    margin-top: 20px;
+}
